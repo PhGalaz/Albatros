@@ -9,4 +9,4 @@ You could use it at any exchange and pair, but you would have to set all paramet
 
 This bot has gave me some satoshis in the past when used between Buda and QuadrigaCX, specially during high volatility periods.
 
-This software is intented for fun, it's not well tested and should not be used for serious trading strategy.
+This software is intented for fun, it's not well tested and should not be taken for serious trading strategy.
