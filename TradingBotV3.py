@@ -8,7 +8,7 @@ parser.read('keys.conf')
 ###BUDA
 buda = ccxt.buda({
 	'apiKey': parser.get('Buda', 'api_key'),
-    'secret': parser.get('Buda', 'api_secret'),
+	'secret': parser.get('Buda', 'api_secret'),
 })
 BU_balance_btc = buda.fetch_balance()['BTC']['free']
 BU_balance_bch = buda.fetch_balance()['BCH']['free']
@@ -18,9 +18,9 @@ print ('BALANCE BUDA BCH :', BU_balance_bch)
 ###BITSTAMP
 bitstamp = ccxt.bitstamp({
 	'uid': parser.get('Bitstamp', 'user'),
-    'apiKey': parser.get('Bitstamp', 'key'),
-    'secret': parser.get('Bitstamp', 'secret'),
-    'enableRateLimit': 'true', 
+	'apiKey': parser.get('Bitstamp', 'key'),
+	'secret': parser.get('Bitstamp', 'secret'),
+	'enableRateLimit': 'true', 
 })
 BI_balance_btc = bitstamp.fetch_balance()['BTC']['free']
 BI_balance_bch = bitstamp.fetch_balance()['BCH']['free']
